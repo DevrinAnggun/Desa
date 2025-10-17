@@ -9,3 +9,22 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1e3a8a; /* biru tua */
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+nav img {
+  width: 60px; /* logo dibesarkan */
+  height: 60px;
+}
+
+.spacer {
+  height: 80px; /* jarak antara navbar dan slider */
+}
