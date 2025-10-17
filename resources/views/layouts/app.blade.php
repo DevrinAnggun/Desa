@@ -14,7 +14,14 @@
 <!-- Navbar -->
 <nav class="fixed top-0 left-0 w-full bg-blue-800 text-white shadow-md z-50">
   <div class="container mx-auto flex justify-between items-center p-4">
-    <img src="{{ asset('images/logo.png') }}" alt="Logo SIKADES" class="w-18 h-16">
+    
+    <!-- Bagian Kiri: Dua Logo -->
+    <div class="flex items-center space-x-3">
+      <img src="{{ asset('images/logo-bna.png') }}" alt="Logo Desa" class="w-14 h-14 object-contain">
+      <img src="{{ asset('images/logo.png') }}" alt="Logo SIKADES" class="w-17 h-16 object-contain">
+    </div>
+
+    <!-- Menu Navigasi -->
     <ul class="flex gap-6 text-sm">
       <li><a href="{{ url('/') }}" class="hover:underline">Home</a></li>
       <li><a href="{{ url('/profil') }}" class="hover:underline">Profil Kelurahan</a></li>
